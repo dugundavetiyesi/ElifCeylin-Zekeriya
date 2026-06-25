@@ -44,8 +44,8 @@ function openEnvelope() {
     /* Show scroll hint after a moment */
     setTimeout(() => {
       if (scrollHint) scrollHint.style.opacity = "1";
-    }, 1200);
-  }, 900);
+    }, 1600);
+  }, 1400);
 
   envelope.setAttribute("aria-label", "Davetiye açıldı");
 }
